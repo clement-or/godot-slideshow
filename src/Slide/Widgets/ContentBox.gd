@@ -42,6 +42,7 @@ func update_text() -> void:
 		_text_processed = center_text(text)
 	else:
 		_text_processed = text
+	if !label_subtitle: return
 	label_subtitle.text = subtitle
 	label_subtitle.visible = subtitle != ""
 	rich_text_label.bbcode_text = _text_processed

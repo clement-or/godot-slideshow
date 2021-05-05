@@ -19,8 +19,6 @@ __meta__ = {
 title = "Slide Title"
 
 [node name="Background" type="TextureRect" parent="."]
-visible = false
-modulate = Color( 1, 1, 1, 0 )
 margin_right = 1164.0
 margin_bottom = 156.0
 texture = ExtResource( 5 )
